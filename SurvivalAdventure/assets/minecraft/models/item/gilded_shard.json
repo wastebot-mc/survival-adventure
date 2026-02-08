@@ -1,0 +1,34 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/gilded_shard"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -95, 30],
+			"translation": [-0.25, 2.5, 2.25],
+			"scale": [0.69, 0.69, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 95, -30],
+			"translation": [-0.25, 2.5, 2.25],
+			"scale": [0.69, 0.69, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -120, 79],
+			"translation": [2.75, 2.5, 2.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [2, 2.75, 2.5]
+		},
+		"gui": {
+			"rotation": [0, -23, 0]
+		},
+		"head": {
+			"translation": [0, 15, 0]
+		}
+	}
+}

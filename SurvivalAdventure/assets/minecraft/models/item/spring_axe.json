@@ -1,0 +1,32 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/spring_axe"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -95, 30],
+			"translation": [-0.25, 2.5, 2.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 95, -30],
+			"translation": [-0.25, 2.5, 2.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [30, -90, 80],
+			"translation": [2.25, 3.25, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [30, 90, -80],
+			"translation": [2.25, 3.25, 0.75]
+		},
+		"gui": {
+			"rotation": [0, -23, 0]
+		},
+		"head": {
+			"translation": [0, 15, 0]
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/butter_spoon"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 62],
+			"translation": [-0.25, 6.25, 3.25],
+			"scale": [2.28, 2.41, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -31],
+			"translation": [0, 6.25, 3]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 74, 0],
+			"translation": [1.75, 5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0, 6.25, -4]
+		},
+		"gui": {
+			"rotation": [0, -23, 0]
+		},
+		"head": {
+			"translation": [0, 15, 0]
+		}
+	}
+}

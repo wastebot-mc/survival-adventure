@@ -1,0 +1,16 @@
+{
+	"model": {
+		"type": "range_dispatch",
+		"property": "custom_model_data",
+		"fallback": {
+			"type": "model",
+			"model": "item/netherite_axe"
+		},
+		"entries": [
+			{"threshold":  1, "model": {"type": "model","model": "item/crystal_axe"}},
+            {"threshold":  2, "model": {"type": "model","model": "item/winter_axe"}},
+			{"threshold":  3, "model": {"type": "model","model": "item/winter_hatchet"}},
+			{"threshold":  4, "model": {"type": "model","model": "item/felling_axe"}}
+		]
+	}
+}
