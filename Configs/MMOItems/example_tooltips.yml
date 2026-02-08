@@ -1,0 +1,49 @@
+
+default:
+  debug: false
+  top:    "{-31sp}\u4070{-100sp}"
+  middle: "{-31sp}\u4071{-100sp}"
+  bottom: "{-31sp}\u4072"
+  align_texture: 0 # Optional
+  align_text: 0 # Optional
+
+  lore_header:
+    - ''
+  center_top:
+    display_name: true
+    span: 161
+    default_char_size: 5
+    lore_lines: 1
+    char_size: [f4, i1, k4, l2, t3, I3, "'1", ' 3', ',1', '(3', ')3']
+    regex: "[a-zA-Z0-9 ',()+]"
+rare:
+  debug: false
+  top:  "{-6sp}❤️{-189sp}"
+  middle: "{-6sp}🩷{-189sp}"
+  bottom: "{-6sp}🧡"
+  align_texture: 0 # Optional
+  align_text: 0 # Optional
+  center_top:
+    display_name: true
+    span: 161
+    default_char_size: 5
+    lore_lines: 1
+    char_size: [f4, i1, k4, l2, t3, I3, "'1", ' 3', ',1', '(3', ')3']
+    regex: "[a-zA-Z0-9 ',()+]"
+starter:
+  debug: false
+  top:  "{-40sp}⅐{-154sp}"
+  middle: "{-40sp}⅑{-154sp}"
+  bottom: "{-40sp}⅒"
+  lore_header:
+  - '&6{tier} {type}'
+  align_texture: 0 # Optional
+  align_text: 0 # Optional
+  center_top:
+    display_name: true
+    span: 161
+    default_char_size: 5
+    lore_lines: 1
+    char_size: [f4, i1, k4, l2, t3, I3, "'1", ' 3', ',1', '(3', ')3']
+    regex: "[a-zA-Z0-9 ',()+]"
+
